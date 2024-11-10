@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Portfolio</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Header with Navbar -->
+        <header>
+            <nav
+                class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="#">Mijanur Rahman</a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Carousel -->
+        <section
+            id="home"
+            class="carousel slide container"
+            data-bs-ride="carousel"
+        >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img
+                        src="assets/img/slide1.jpg"
+                        class="d-block w-100"
+                        alt="Slide 1"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Welcome to My Portfolio</h2>
+                        <p>Showcasing my best work and skills</p>
+                        <a href="#projects" class="btn btn-primary"
+                            >View Projects</a
+                        >
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="assets/img/slide2 (1).jpg"
+                        class="d-block w-100"
+                        alt="Slide 2"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Innovative Solutions</h2>
+                        <p>Full Stack Engineer</p>
+                        <a href="#about" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img
+                        src="assets/img/slide3 (1).jpg"
+                        class="d-block w-100"
+                        alt="Slide 3"
+                    />
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Let's Collaborate</h2>
+                        <p>Bringing your ideas to life</p>
+                        <a href="#contact" class="btn btn-primary">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#home"
+                data-bs-slide="prev"
+            >
+                <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#home"
+                data-bs-slide="next"
+            >
+                <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </section>
+
+        <!-- Projects Grid -->
+        <section id="projects" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">My Projects</h2>
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <a
+                            style="text-decoration: none"
+                            href="https://foodie-green-seven.vercel.app/
+"
+                        >
+                            <div class="card shadow-sm">
+                                <img
+                                    src="assets/img/project1.png"
+                                    class="card-img-top"
+                                    alt="Project 1"
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Online Food Order
+                                    </h5>
+                                    <p class="card-text">
+                                        The Online Food Ordering Website
+                                        provides a fast and convenient way for
+                                        users to order food from their favorite
+                                        restaurants. Customers can easily browse
+                                        menus, select dishes, customize their
+                                        orders, and place them directly through
+                                        the platform. The website offers various
+                                        payment options and real-time order
+                                        tracking, ensuring a smooth and secure
+                                        experience.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <a
+                            style="text-decoration: none"
+                            href="https://astounding-cajeta-a98a10.netlify.app/"
+                        >
+                            <div class="card shadow-sm">
+                                <img
+                                    src="assets/img/project2.png"
+                                    class="card-img-top"
+                                    alt="Project 2"
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title">Online Shopping</h5>
+                                    <p class="card-text">
+                                        The Online Shopping Website offers a
+                                        seamless and convenient shopping
+                                        experience, allowing users to browse a
+                                        wide range of products, from fashion to
+                                        electronics, all in one place. Customers
+                                        can easily filter products by category,
+                                        brand, and price, add items to their
+                                        cart, and securely check out with
+                                        various payment options.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <a
+                            style="text-decoration: none"
+                            href="https://capable-douhua-dd3512.netlify.app/"
+                        >
+                            <div class="card shadow-sm">
+                                <img
+                                    src="assets/img/project3.png"
+                                    class="card-img-top"
+                                    alt="Project 3"
+                                />
+                                <div class="card-body">
+                                    <h5 class="card-title">
+                                        Doctors Appointment
+                                    </h5>
+                                    <p class="card-text">
+                                        The Doctor’s Appointment Website is an
+                                        easy-to-use, online platform designed to
+                                        help patients schedule appointments with
+                                        healthcare professionals. Users can
+                                        browse through a list of doctors, view
+                                        their specialties, and book an
+                                        appointment based on availability.At any
+                                        time they can also take service from the
+                                        doctor.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">About Me</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img
+                            src="assets/img/slide1.jpg"
+                            class="img-fluid rounded"
+                            alt="Profile Picture"
+                        />
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            I am a Final Year Computer Science and Engineering
+                            (CSE) student with a strong passion for competitive
+                            programming and problem-solving. Over the years, I
+                            have developed my skills by solving more than 500
+                            problems across various online judges, sharpening my
+                            analytical thinking and algorithmic expertise. My
+                            journey in competitive programming has led me to
+                            participate in several onsite contests, where I have
+                            consistently achieved impressive scores, further
+                            enhancing my problem-solving abilities under
+                            pressure.
+                        </p>
+                        <p>
+                            Currently, I am expanding my skill set by diving
+                            into web development. I am actively working with the
+                            MERN stack (MongoDB, Express.js, React, Node.js) to
+                            build dynamic, full-stack web applications. My
+                            experience in competitive programming has helped me
+                            approach web development with a logical and
+                            systematic mindset, making me a better developer and
+                            problem-solver.
+                        </p>
+                        <p>
+                            With a strong foundation in computer science,
+                            competitive programming, and web development, I am
+                            eager to continue learning, grow my technical
+                            skills, and contribute to exciting projects in the
+                            tech industry.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Contact Me</h2>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label"
+                                    >Name</label
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    required
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label"
+                                    >Email</label
+                                >
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    id="email"
+                                    required
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label"
+                                    >Message</label
+                                >
+                                <textarea
+                                    class="form-control"
+                                    id="message"
+                                    rows="5"
+                                    required
+                                ></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-light py-4">
+            <div class="container text-center">
+                <div class="mb-3">
+                    <a href="#" class="text-light me-3"
+                        ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a href="#" class="text-light me-3"
+                        ><i class="bi bi-twitter"></i
+                    ></a>
+                    <a href="#" class="text-light me-3"
+                        ><i class="bi bi-linkedin"></i
+                    ></a>
+                    <a href="#" class="text-light"
+                        ><i class="bi bi-github"></i
+                    ></a>
+                </div>
+                <p>&copy; 2024 Mijanur Rahman. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
